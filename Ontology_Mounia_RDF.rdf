@@ -1,0 +1,803 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#"
+     xml:base="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17"
+     xmlns:xh="http://www.w3.org/1999/xhtml"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:bench="http://localhost/vocabulary/bench/"
+     xmlns:freq="http://purl.org/cld/freq/"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:schema="http://schema.org/"
+     xmlns:coderef="http://www.s-bpm9b-a/datasources/CodeRef#"
+     xmlns:time="http://www.w3.org/2006/time#"
+     xmlns:rdiM="http://www.rightscom.com/2011/rdiM#"
+     xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+     xmlns:grounding="http://www.daml.org/services/owl-s/1.1/Grounding.owl#"
+     xmlns:feature="http://www.linkeddatatools.com/clothing-features#"
+     xmlns:moodBasedMusicOntology="http://www.semanticweb.org/ankita/ontologies/2015/11/moodBasedMusicOntology#"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:JobSeeOnt="http://mccarthy.dia.fi.upm.es/Job_Seeker_Ontology#"
+     xmlns:gn="http://www.geonames.org/ontology#"
+     xmlns:bit="http://www.brenk.it/context/publicPersonalContext"
+     xmlns:calli="http://callimachusproject.org/rdf/2009/framework#"
+     xmlns:bio="http://www.bioknowlogy.br/ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+     xmlns:wd="http://www.wikidata.org/entity/"
+     xmlns:dcmit="http://purl.org/dc/terms/DCMIType"
+     xmlns:gr="http://purl.org/goodrelations/v1#"
+     xmlns:guidecontents="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/http://www.ordnancesurvey.co.uk/oswebsite/gps/information/coordinatesystemsinfo/guidecontents/"
+     xmlns:res="http://www.bioknowlogy.br/resource/"
+     xmlns:krdf="http://www.intelligent-views.de/krdf#"
+     xmlns:Kiehl="http://protege.stanford.edu/Kiehl#"
+     xmlns:spatialrelations="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
+     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:rdf123="http://rdf123.umbc.edu/ns/"
+     xmlns:doid="http://purl.obolibrary.org/obo/doid#"
+     xmlns:domain="http://opendata.inra.fr/resources/BIORAF#"
+     xmlns:map="file:/var/www/wbsg.de/drugbank/drugbank.n3#"
+     xmlns:dl="http://ontology.dumontierlab.com/"
+     xmlns:diseasome="http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseasome/"
+     xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+     xmlns:skosdl="http://www.w3.org/TR/skos-reference/skos-owl1-dl#"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:a="http://protege.stanford.edu/system#"
+     xmlns:voag="http://voag.linkedmodel.org/schema/voag#"
+     xmlns:thecustomprofile="http://www.sparxsystems.com/profiles/thecustomprofile/1.0"
+     xmlns:visitor_behaviour="http://www.sme-ecompass.eu/ontologies/visitor_behaviour.owl#"
+     xmlns:swivt="http://semantic-mediawiki.org/swivt/1.0#"
+     xmlns:untitled-ontology-39="http://www.semanticweb.org/jayani1992/ontologies/2015/7/untitled-ontology-39#"
+     xmlns:s="http://dummy.org/xmLP-RDF-sample"
+     xmlns:admin="http://webns.net/mvcb/"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:p="/"
+     xmlns:sio="http://semanticscience.org/resource/"
+     xmlns:base="http://www.example.org/Demo#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:coa="http://www.rightscom.com/2010/coa#"
+     xmlns:vocab="file:///C:/DBA%20Work/d2rq-0.8.1/vocab/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:con="http://www.w3.org/2000/10/swap/pim/contact#"
+     xmlns:Ontology1363212625516="http://www.semanticweb.org/ontologies/2013/2/Ontology1363212625516.owl#"
+     xmlns:drugbank="http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugbank/"
+     xmlns:tzont="http://www.w3.org/2006/timezone#"
+     xmlns:physical-quality="http://purl.oclc.org/NET/muo/ucum/physical-quality/"
+     xmlns:ontotest="http://localhost:8081/alexk/ontotest.owl#"
+     xmlns:ltr="http://wolterskluwer.com/ceres/ltr-v1.0/"
+     xmlns:ssn="http://purl.oclc.org/NET/ssnx/ssn#"
+     xmlns:lcc="http://www.rightscom.com/2011/lcc#"
+     xmlns:JobOffOnt="http://mccarthy.dia.fi.upm.es/Job_Offer_Ontology#"
+     xmlns:dcam="http://purl.org/dc/dcam/"
+     xmlns:pci-core="http://onto.wolterskluwer.com/pci/core/"
+     xmlns:fti="http://franz.com/ns/allegrograph/2.2/textindex/"
+     xmlns:family_example="https://wiki.csc.calpoly.edu/OntologyTutorial/family_example.owl#"
+     xmlns:qudt="http://qudt.org/schema/qudt#"
+     xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"
+     xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+     xmlns:scovo="http://purl.org/NET/scovo#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:ss="http://www.semioe.org/sensor/"
+     xmlns:rdi="http://www.rightscom.com/2011/rdi#"
+     xmlns:instance="http://openhab-semantic/0.1/instance#"
+     xmlns:db="file:///C:/DBA%20Work/d2rq-0.8.1/EQ-dump-XMLFormat.rdf"
+     xmlns:assoc="http://ebiquity.umbc.edu/ontology/association.owl#"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:kinfinity="http://localhost/your%20sandbox#"
+     xmlns:mso="http://iserve.kmi.open.ac.uk/ns/mso#"
+     xmlns:odo="http://purl.dataone.org/odo/"
+     xmlns:sc="http://www.semanticweb.org/ontologies/2015/10/SafetyCheck#"
+     xmlns:xmi="http://www.omg.org/XMI"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:vocabProperty="http://wifo5-04.informatik.uni-mannheim.de/drugbank/vocab/resource/property/"
+     xmlns:cw="http://wolterskluwer.com/ceres/content-warehouse-v1.0/"
+     xmlns:msg="http://langdale.com.au/2005/Message#"
+     xmlns:pub="http://ebiquity.umbc.edu/ontology/publication.owl#"
+     xmlns:odr="http://www.rightscom.com/2010/odr#"
+     xmlns:si="http://www.w3schools.com/rdf/"
+     xmlns:lemx="http://www.rightscom.com/2011/lemx#"
+     xmlns:cl="http://purl.obolibrary.org/obo/cl#"
+     xmlns:than="http://www.thanks.net/2015/cim#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:lds="http://ie.fujitsu.com/lds/vocab#"
+     xmlns:ifc="http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_Final#"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:frf="http://www.rightscom.com/2011/frf#"
+     xmlns:wsml="http://www.wsmo.org/wsml/wsml-syntax#"
+     xmlns:BPMN_Ontology="http://dkm.fbk.eu/index.php/BPMN_Ontology#"
+     xmlns:owl2="http://www.w3.org/2006/12/owl2#"
+     xmlns:fgvterms="http://www.fgv.br/terms/"
+     xmlns:crf="http://www.rightscom.com/2011/crf#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:condor="http://wolterskluwer.com/ceres/condor/"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:guidecontents2="http://www.ordnancesurvey.co.uk/oswebsite/gps/information/coordinatesystemsinfo/guidecontents/"
+     xmlns:pav="http://purl.org/pav/2.0/"
+     xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+     xmlns:ANIMALS="http://www.some-fictitious-zoo.com/rdf#"
+     xmlns:saref="http://ontology.tno.nl/saref#"
+     xmlns:locont="http://webmind.dico.unimi.it/CARE/locont.owl#"
+     xmlns:prv="http://purl.org/net/provenance/ns#"
+     xmlns:rrm="http://www.rightscom.com/2011/rrm#"
+     xmlns:tute="http://callimachusproject.org/2014/03/tutorial#"
+     xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
+     xmlns:dce="http://purl.org/dc/elements/1.1/"
+     xmlns:eSubscription="http://s-bpm9b-a/datasources/qualification#"
+     xmlns:qb="http://purl.org/linked-data/cube#"
+     xmlns:fichier="http://www.websemantic.org/ontologies/maxime/gillot/fichier.owl#"
+     xmlns:drs="http://www.rightscom.com/2011/drs#"
+     xmlns:muo="http://purl.oclc.org/NET/muo/muo#"
+     xmlns:aapi="http://rdf.alchemyapi.com/rdf/v1/s/aapi-schema#"
+     xmlns:p3p="http://www.rightscom.com/2010/p3p#"
+     xmlns:nomlex="https://w3id.org/own-pt/nomlex/schema/"
+     xmlns:unit="http://qudt.org/vocab/unit#"
+     xmlns:ns4="http://open.vocab.org/terms/"
+     xmlns:cims="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#"
+     xmlns:ns0="http://www.recshop.fake/cd#"
+     xmlns:err="http://www.w3.org/2005/xqt-errors#"
+     xmlns:service="http://www.daml.org/services/owl-s/1.1/Service.owl#"
+     xmlns:EduOnt="http://mccarthy.dia.fi.upm.es/Education_Ontology#"
+     xmlns:core="http://opendata.inra.fr/resources/core#"
+     xmlns:xhv="http://www.w3.org/1999/xhtml/vocab#"
+     xmlns:wn30="https://w3id.org/own-pt/wn30/schema/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:demo="http://example.com/demo#"
+     xmlns:chub="https://copyrighthub.org/ns/odrl-chub/0/"
+     xmlns:ns="http://isd.ktu.lt/"
+     xmlns:person="http://ebiquity.umbc.edu/ontology/person.owl#"
+     xmlns:p2="http://www.owl-ontologies.com/assert.owl#"
+     xmlns:test="http://www.rightscom.com/2010/test#"
+     xmlns:user_behaviour="http://www.sme-ecompass.eu/ontologies/2014/6/user_behaviour.owl#"
+     xmlns:p1="#"
+     xmlns:opl="http://www.rightscom.com/2010/opl#"
+     xmlns:Ontology1415135201="http://www.owl-ontologies.com/Ontology1415135201.owl#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:foo="http://www.foo.org/"
+     xmlns:uml="http://schema.omg.org/spec/UML/2.1/"
+     xmlns:shadow-rdf="http://www.daml.org/services/owl-s/1.1/generic/ObjectList.owl#"
+     xmlns:bbc="http://purl.org/ontology/po/"
+     xmlns:vin="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#"
+     xmlns:om="http://www.wurvoc.org/vocabularies/om-1.8/"
+     xmlns:animals="http://xmlns.com/animals/0.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+     xmlns:http="http://www.w3.org/2011/http#"
+     xmlns:pa="http://www.purina.org/ns/purina_demo#"
+     xmlns:AirOperations="http://metadata.dod.mil/mdr/ns/AO/ontologies/AirOperations.owl#"
+     xmlns:xyz="http://www.rightscom.com/2010/xyz#"
+     xmlns:DUL="http://www.loa-cnr.it/ontologies/DUL.owl#"
+     xmlns:srs="http://srs/ontologies/srs.owl#"
+     xmlns:org="http://www.w3.org/ns/org#"
+     xmlns:express="http://purl.org/vocab/express#"
+     xmlns:contact="http://ebiquity.umbc.edu/ontology/contact.owl#"
+     xmlns:AfricanWildlifeOntology1="file:/Applications/Protege_4.1_beta/AfricanWildlifeOntology1.owl#"
+     xmlns:myco="http://myCompany.com/vocab#"
+     xmlns:ppex="http://ifpb.edu/ppex/"
+     xmlns:lattes="http://www.cnpq.br/2001/XSL/Lattes"
+     xmlns:a1="http://purl.obolibrary.org/obo/dictyBase#"
+     xmlns:a2="http://purl.obolibrary.org/obo/pr#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/ankita/ontologies/2015/9/untitled-ontology-8#"
+     xmlns:wiki="http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/"
+     xmlns:untitled-ontology-9="http://www.semanticweb.org/mostinskaia/ontologies/2013/9/untitled-ontology-9#"
+     xmlns:dailymed="http://wifo5-04.informatik.uni-mannheim.de/dailymed/resource/dailymed/"
+     xmlns:RefOntoUML="http://nemo.inf.ufes.br/ontouml/refontouml"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:movie="http://www.semanticweb.org/carver/ontologies/2015/10/movie.owl#"
+     xmlns:void="http://rdfs.org/ns/void#"
+     xmlns:lem="http://www.rightscom.com/2011/lem#"
+     xmlns:Hotel="http://www.semanticweb.org/ontologies/Hotel.owl#"
+     xmlns:doac="http://ramonantonio.net/doac/0.1/"
+     xmlns:obo3="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
+     xmlns:process="http://www.daml.org/services/owl-s/1.1/Process.owl#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:obo2="http://data.bioontology.org/metadata/obo/"
+     xmlns:item="http://www.obrussa.com/app/ontology/item#"
+     xmlns:ecso2="http://purl.dataone.org/odo/ecso.owl#"
+     xmlns:budg="http://s-bpm9b-a/datasources/budg#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:cust="https://copyrighthub.org/ns/organisations/0/"
+     xmlns:plc="http://www.rightscom.com/2010/plc#"
+     xmlns:movie2="http://www.semanticweb.org/carver/ontologies/2015/10/movie.owl#2015"
+     xmlns:core2="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:core1="http://purl.obolibrary.org/obo/core#"
+     xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+     xmlns:desma="http://www.proseco-project.eu/ontologies/proseco-context-desma-specification.owl#"
+     xmlns:type="http://www.w3.org/2000/01/"
+     xmlns:dogont="http://elite.polito.it/ontologies/dogont.owl#"
+     xmlns:bfo2="http://bfo.googlecode.com/svn/trunk/src/ontology/bfo2_all.owl#"
+     xmlns:fipa="http://sites.google.com/site/smartappliancesproject/ontologies/fipa#"
+     xmlns:odrl="http://www.w3.org/ns/odrl/2/"
+     xmlns:metadata="http://data.bioontology.org/metadata/"
+     xmlns:onto="http://opendata.inra.fr/resources/atWeb/annotation/"
+     xmlns:vocabClass="http://wifo5-04.informatik.uni-mannheim.de/drugbank/vocab/resource/class/"
+     xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+     xmlns:j.1="http://vue.tufts.edu/ontology/vue.rdfs#"
+     xmlns:property="http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3A"
+     xmlns:j.2="http://vue.tufts.edu/vue.rdfs#"
+     xmlns:aws="http://purl.oclc.org/NET/ssnx/meteo/aws#"
+     xmlns:food="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#"
+     xmlns:Lab="http://fic.daegu.ac.kr/Lab.owl#"
+     xmlns:fma="http://purl.obolibrary.org/obo/fma#"
+     xmlns:DASH-MPD="http://www.tssg.org/DASH-MPD#"
+     xmlns:proseco="http://www.proseco-project.eu/ontologies/proseco-context.owl#"
+     xmlns:rdiavs="http://www.rightscom.com/2011/rdiavs#"
+     xmlns:tgn="http://vocab.getty.edu/tgn/"
+     xmlns:ecso="https://purl.org/dataone/odo/ECSO_"
+     xmlns:hk="http://www.copyrighthub.co.uk/2014/hk#"
+     xmlns:expr="http://www.daml.org/services/owl-s/1.1/generic/Expression.owl#"
+     xmlns:qudt-quantity="http://qudt.org/vocab/quantity#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:hm="http://vocab.argodata.com/v1/hypermedia.owl#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:dbpedia="http://dbpedia.org/ontology/"
+     xmlns:swrc="http://swrc.ontoware.org/ontology#"
+     xmlns:Ontology1390230245999="http://www.semanticweb.org/ontologies/2014/0/20/Ontology1390230245999.owl#"
+     xmlns:OntoUML="http://www.sparxsystems.com/profiles/OntoUML/1.2"
+     xmlns:university="http://hocchatluong.edu.vn/ontology/university.owl#"
+     xmlns:myVocab="http://www.example.org/myVocab/1.0/"
+     xmlns:Ontology1449805189917="http://www.semanticweb.org/ontologies/2015/11/Ontology1449805189917.owl#"
+     xmlns:list="http://www.co-ode.org/ontologies/list.owl#"
+     xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+     xmlns:PDM="http://s-bpm9b-a/datasources/legalEntity#"
+     xmlns:Com="http://mccarthy.dia.fi.upm.es/Competence_Ontology#"
+     xmlns:ncicp="http://ncicb.nci.nih.gov/xml/owl/EVS/ComplexProperties.xsd#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:user="http://www.obrussa.com/app/ontology/user#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#from_stop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#from_stop">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Stops"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Trip"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_end_date -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_end_date">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Date"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#ServiceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_geographic_spot -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_geographic_spot">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#GeographicZone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Spot"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Stops"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_start_date -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_start_date">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Date"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#ServiceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Line"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Stops"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#provide_service -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#provide_service">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Agency"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#ServiceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#to_stop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#to_stop">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Stops"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Trip"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_attributes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_attributes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Agency"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Agency"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_language -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_language">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Agency"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Agency"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_phone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_phone">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Agency"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_timezone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_timezone">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Agency"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_url -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_url">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Agency"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_agency_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_arrival_time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_arrival_time">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Trip"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_trip_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_departure_time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_departure_time">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Trip"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_trip_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_direction_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_direction_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Trip"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_trip_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_geographic_attributes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_geographic_attributes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_latitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Spot"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_geographic_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_longitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_longitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Spot"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_geographic_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_road_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_road_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Road"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_service_attribute -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_service_attribute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#ServiceType"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_service_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_service_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#ServiceType"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_service_attribute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_attributes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_attributes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Stops"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_code -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_code">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Stops"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Stops"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Stops"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_number">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_stop_attributes"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_trip_attributes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_trip_attributes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Trip"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_trip_headsign -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_trip_headsign">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Trip"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_trip_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_zone_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_zone_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#GeographicZone"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#has_geographic_attributes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Agency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Agency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Services"/>
+        <rdfs:comment>is a public or private company that operates the network of public transport </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#BusStop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#BusStop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Stops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Calendar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Calendar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#CityBus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#CityBus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RoadTransport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Calendar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#GeographicZone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#GeographicZone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Infrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Public_transport"/>
+        <rdfs:comment>Transport infrastructure consists of the fixed installations necessary for transport</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#LandTransport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#LandTransport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#ModeTransport"/>
+        <rdfs:comment>is the transport or movement of people, animals, and goods from one location to another on land, usually by rail or road.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Line -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Line">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Services"/>
+        <rdfs:comment>A  line is a predefined transportation route jointly provided by one or more buses. It includes several stops for many city districts or different localities through which it passes.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Metro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Metro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RapidTransit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#ModeTransport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#ModeTransport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Public_transport"/>
+        <rdfs:comment>Is a term used to distinguish substantially different ways to perform transport</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Public_transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Public_transport">
+        <rdfs:comment>Public transport is a shared passenger transport service which is available for use by the general public</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RailTransport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RailTransport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#LandTransport"/>
+        <rdfs:comment>Rail transport is a means of conveyance of passengers and goods, by way of wheeled vehicles running on rails.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Railway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Railway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Infrastructure"/>
+        <rdfs:comment>A railway is a route between two places along which trains travel on steel rails.  </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RapidTransit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RapidTransit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RailTransport"/>
+        <rdfs:comment>is a type of high-capacity public transport generally found in urban areas</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Road -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Road">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Infrastructure"/>
+        <rdfs:comment>A road is a paved surface to facilitate the movement of people or goods with</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RoadTransport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RoadTransport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#LandTransport"/>
+        <rdfs:comment>Road transport is the transport of passengers or goods on roads.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Schedule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Schedule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Date"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#ServiceType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#ServiceType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Services"/>
+        <rdfs:comment>refers to how an agent that possesses some kind of vehicle transports people around</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Public_transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Spot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Spot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#GeographicZone"/>
+        <rdfs:comment>Geographic location</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Stops -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Stops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Road"/>
+        <rdfs:comment>A stop is a development on a road, located on sidewalks, at which intra-city buses and inter-city public transport buses stop to allow users to get on and off the vehicle.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Subway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Subway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RapidTransit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Train -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Train">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RailTransport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Tram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Tram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RailTransport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Trip -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Trip">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#ServiceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Underground -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Underground">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RapidTransit"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.5-SNAPSHOT) http://owlapi.sourceforge.net -->
