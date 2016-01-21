@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1453368553503" name="duplicate:http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17" uri="RDF_MouniaHamedi_Ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1453368553503" name="duplicate:http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17" uri="TransportPublic_Mounia_Ontology.owl"/>
+    </group>
+</catalog>

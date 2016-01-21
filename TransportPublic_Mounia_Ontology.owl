@@ -20,7 +20,7 @@
 
 
     <!-- 
-    ////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
     //
@@ -365,7 +365,7 @@
     <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Calendar -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Calendar">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Services"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Infrastructure"/>
     </owl:Class>
     
 
@@ -569,6 +569,102 @@
     <owl:Class rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Underground">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#RapidTransit"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#agency1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#agency1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Agency"/>
+        <has_agency_language>it</has_agency_language>
+        <has_agency_url>http://www.ttesercizio.it</has_agency_url>
+        <has_agency_phone>+39 0461 821000</has_agency_phone>
+        <has_agency_id>12</has_agency_id>
+        <has_agency_timezone>Europe/Rome</has_agency_timezone>
+        <has_agency_name>Trentino trasporti esercizio S.p.A.</has_agency_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#road1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#road1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Road"/>
+        <has_road_id>1</has_road_id>
+        <has_agency_id>12</has_agency_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#service1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#service1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#ServiceType"/>
+        <has_service_id>0000000012015091020160624</has_service_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#stop1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#stop1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Stops"/>
+        <has_stop_name>Trento-Autostaz.</has_stop_name>
+        <has_latitude>46.070785</has_latitude>
+        <has_stop_id>1</has_stop_id>
+        <has_longitude>11.118461</has_longitude>
+        <has_stop_code>0001</has_stop_code>
+        <has_zone_id>0001</has_zone_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#stop2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#stop2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Stops"/>
+        <has_stop_id>2</has_stop_id>
+        <has_longitude>11.119732</has_longitude>
+        <has_stop_name>Trento-Solteri Bivio Ss.12</has_stop_name>
+        <has_stop_code>0001BS</has_stop_code>
+        <has_latitude>46.084046</has_latitude>
+        <has_zone_id>0001</has_zone_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#trip1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#trip1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Trip"/>
+        <has_trip_headsign>Carisolo</has_trip_headsign>
+        <has_service_id>0000000052015091020160624</has_service_id>
+        <has_direction_id>0</has_direction_id>
+        <has_road_id>636</has_road_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#trip2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#trip2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mounia/ontologies/2015/11/untitled-ontology-17#Trip"/>
+        <has_service_id>0000000022015091020160624</has_service_id>
+        <has_trip_headsign>Pergine V.-C.Intermodale</has_trip_headsign>
+        <has_road_id>562</has_road_id>
+        <has_direction_id>0</has_direction_id>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
